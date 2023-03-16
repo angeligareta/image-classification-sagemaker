@@ -22,11 +22,11 @@ hyperparameter_ranges = {
 }
 ```
 
-![screenshots/hyperparam_jobs.png](Hyperperam jobs)
+![Hyperperam jobs](screenshots/hyperparam_jobs.png)
 
 ## Training
 Several training jobs were run with different combinations of hyperparameters, and the best hyperparameters were chosen based on the validation accuracy, from which a training job was performed.
-![screenshots/training_jobs.png](Training jobs)
+![Training jobs](screenshots/training_jobs.png)
 
 ## Debugging and Profiling
 SageMaker's debugger was used to monitor the training process and detect any errors or anomalies. The profiling feature was used to identify any performance bottlenecks in the training process. The profiler report showed that the most time-consuming part of the training process was the forward propagation step, which accounted for about 90% of the total training time.
